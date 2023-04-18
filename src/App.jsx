@@ -1,9 +1,10 @@
+//STEP-2==PROVIDER
 import { useState } from "react";
 
 import "./App.css";
 import MyPage1 from "./components/MyPage1";
 import MyPage2 from "./components/MyPage2";
-import AuthContext from "../context/authcontext";
+import AuthContext from "./store/authContext";
 
 function App() {
   const [isLoggedin, setIsLoggedin] = useState("NO");

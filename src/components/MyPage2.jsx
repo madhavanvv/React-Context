@@ -1,5 +1,6 @@
+//STEP-3===USE in COMPONENT
 import { useState, useContext } from "react";
-import AuthContext from "../../context/authcontext";
+import AuthContext from "../store/authContext";
 
 const MyPage2 = () => {
   const ctx = useContext(AuthContext);
